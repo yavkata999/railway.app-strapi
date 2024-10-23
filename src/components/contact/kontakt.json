@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contact_kontakt",
+  "info": {
+    "displayName": "Контакт",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone1": {
+      "type": "string"
+    },
+    "phone2": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

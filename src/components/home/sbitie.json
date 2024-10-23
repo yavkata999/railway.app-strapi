@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_sbitie",
+  "info": {
+    "displayName": "Събитие"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

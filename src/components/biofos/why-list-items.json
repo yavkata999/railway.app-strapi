@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_biofos_why_list_items",
+  "info": {
+    "displayName": "why_list_items"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

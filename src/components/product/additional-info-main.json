@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_product_additional_info_mains",
+  "info": {
+    "displayName": "additional_info_main"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "salt": {
+      "type": "string"
+    },
+    "ph": {
+      "type": "string"
+    },
+    "fraction": {
+      "type": "string"
+    },
+    "lpeat": {
+      "type": "string"
+    },
+    "dpeat": {
+      "type": "string"
+    },
+    "additional_mats": {
+      "type": "string"
+    },
+    "package": {
+      "type": "string"
+    }
+  }
+}

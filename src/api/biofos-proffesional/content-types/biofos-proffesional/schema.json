@@ -1,0 +1,83 @@
+{
+  "kind": "singleType",
+  "collectionName": "biofos_proffesionals",
+  "info": {
+    "singularName": "biofos-proffesional",
+    "pluralName": "biofos-proffesionals",
+    "displayName": "Биофос Професионал"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "why_header": {
+      "type": "string"
+    },
+    "why_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "why_list_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "biofos.why-list-items"
+    },
+    "how_header": {
+      "type": "string"
+    },
+    "how_images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "what_header": {
+      "type": "string"
+    },
+    "what_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "what_paragraph": {
+      "type": "richtext"
+    },
+    "what_more_header": {
+      "type": "string"
+    },
+    "what_more_paragraph": {
+      "type": "richtext"
+    },
+    "more_products_link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_product_produkt",
+  "info": {
+    "displayName": "Продукт"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "additional_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.additional-info"
+    }
+  }
+}

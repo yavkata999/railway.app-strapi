@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_product_post_links",
+  "info": {
+    "displayName": "post_link"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "post_name": {
+      "type": "string"
+    }
+  }
+}

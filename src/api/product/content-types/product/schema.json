@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Шаблон за продуктова страница"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "product": {
+      "type": "dynamiczone",
+      "components": [
+        "product.produkt",
+        "product.produkt-saksii",
+        "product.produkt-formi"
+      ]
+    },
+    "additional_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.additional-info-main"
+    },
+    "post": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.post-link"
+    },
+    "catalog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.katalog"
+    }
+  }
+}

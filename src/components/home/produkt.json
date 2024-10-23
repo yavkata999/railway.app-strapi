@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_produkt",
+  "info": {
+    "displayName": "Продукт"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_product_additional_infos",
+  "info": {
+    "displayName": "additional_info"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "volume": {
+      "type": "string"
+    },
+    "degradation_level": {
+      "type": "string"
+    },
+    "moisture": {
+      "type": "string"
+    },
+    "fraction": {
+      "type": "string"
+    }
+  }
+}

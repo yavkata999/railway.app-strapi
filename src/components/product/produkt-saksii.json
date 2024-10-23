@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_product_produkt_saksii",
+  "info": {
+    "displayName": "Продукт - саксии"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "form": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "count_in_box": {
+      "type": "string"
+    },
+    "box_in_pallet": {
+      "type": "string"
+    },
+    "count_in_pallet": {
+      "type": "string"
+    },
+    "diameter": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "volume": {
+      "type": "string"
+    }
+  }
+}
